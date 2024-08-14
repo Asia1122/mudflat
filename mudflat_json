@@ -1,0 +1,31 @@
+{
+  "Korea_Mudflats": {
+    "Types_of_Mudflats": [
+      {
+        "Type": "Sand_Mudflat",
+        "Description": "모래가 주로 이루고 있는 갯벌"
+      },
+      {
+        "Type": "Silt_Mudflat",
+        "Description": "미세한 점토와 유기물이 주로 이루고 있는 갯벌"
+      }
+    ],
+    "Shellfish_Found_in_Mudflats": [
+      {
+        "Name": "Clam",
+        "Korean_Name": "조개",
+        "Found_in": ["Sand_Mudflat", "Silt_Mudflat"]
+      },
+      {
+        "Name": "Oyster",
+        "Korean_Name": "굴",
+        "Found_in": ["Silt_Mudflat"]
+      },
+      {
+        "Name": "Mussel",
+        "Korean_Name": "홍합",
+        "Found_in": ["Sand_Mudflat", "Silt_Mudflat"]
+      }
+    ]
+  }
+}
